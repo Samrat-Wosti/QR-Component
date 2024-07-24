@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    background-color: #d6e2f0;
+}
+
+#qr-container {
+    width: 320px;
+    height: 480px;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 7rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.qr-code-image {
+    text-align: center;
+}
+
+.qr-code-image  img {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 30px;
+}
+
+h2 {
+    text-align: center;
+    padding: 0 1.3rem;
+    color: 	#1f3251;
+}
+
+p {
+    font-size: 15px;
+    text-align: center;
+    color: #7b879d;
+    padding: 1rem 1.8rem;
+}
